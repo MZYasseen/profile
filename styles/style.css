@@ -1,5 +1,11 @@
+body{
+        
+        background-image: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+    }
+
 .greeting-image{
     display: flex;
+    align-items: center;
     margin: 200px;
     justify-content:space-evenly;
     margin-top: 90px;
@@ -8,6 +14,9 @@
 img{
     width: 200px;
     height: 200px;
+    border: 13px solid #a5757d;
+    border-radius: 50%;
+    border-width:medium;
     
 }
 .greet{
@@ -19,7 +28,7 @@ img{
     margin-left: 60px;
     font-size: 25px;
     margin-right: 120px;
-    background-color: rgb(204, 199, 193);
+    background-color: #d47a8c;
 
 }
 .text{
